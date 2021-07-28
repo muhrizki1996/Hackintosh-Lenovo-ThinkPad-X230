@@ -1,9 +1,9 @@
 # Hackintosh-Lenovo-ThinkPad-X230
 
 [![ThinkPad](https://img.shields.io/badge/ThinkPad-X230-blue.svg)](https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_X230.pdf)
+[![MacOS High Siera](https://img.shields.io/badge/HighSiera-10.15-red.svg)](https://www.apple.com/)
+[![MacOS Mojave](https://img.shields.io/badge/Mojave-10.14-red.svg)](https://www.apple.com/)
 [![MacOS Catalina](https://img.shields.io/badge/Catalina-10.15-red.svg)](https://www.apple.com/)
-[![MacOS Big Sur](https://img.shields.io/badge/Big_Sur-11.4-blue.svg)](https://www.apple.com/macos/big-sur/)
-[![MacOS Monterey](https://img.shields.io/badge/Monterey-12.0-purple.svg)](https://www.apple.com/macos/monterey-preview/)
 [![Release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/muhrizki1996/Hackintosh-Lenovo-ThinkPad-X230/releases/latest)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.1-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
 
@@ -34,7 +34,7 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 - [x] <b>Ethernet</b>: Intel 82579LM Gigabit Network Connection
 - [x] <b>Bluetooth</b>: Broadcom BCM20702A0
 - [x] <b>Others</b>: 1 USB 2.0 ports, 2 USB 3.0 ports Synaptics PS/2 TouchPad + Track Point, VGA port, Mini Display port, WebCam, 12.5" 16:9 HD (1366x768) TN Panel, Express Card Slot, 3.5mm Combo Headphone Jack, (SD/ MS/ MS Pro/ MMC) Card Reader, 6/9-Cell @5.6Ah/8.4Ah Lithium-ion Battery
-- [x] <b>BIOS</b>: ?
+- [x] <b>BIOS</b>: 2.51
  
 --------------------------------------------------------------------------------------------
  
@@ -45,7 +45,9 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 
 --------------------------------------------------------------------------------------------
  
-> ## What's Worked
+<details>
+<summary><strong> What's Worked </strong></summary>
+<br>
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
@@ -65,7 +67,11 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 | iMessage and FaceTime                | ✅   | if you are using MLB and ROM from original Macs |
 | Hand Off                             | ✅   | Native |
 
-> ## List of Gestures
+</details>
+
+<details>
+<summary><strong> List of Gestures </strong></summary>
+<br>
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
@@ -77,17 +83,23 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 | 3 Finger Swipe Down                  | ❌   | Do Nothing (on work progress). |
 | 4 Finger Swipe Up                    | ❌   | Do Nothing (on work progress). |
 | 4 Finger Swipe Down                  | ❌   | Do Nothing (on work progress). |
+
+</details>
  
-> ## Not Working
+<details>
+<summary><strong> Not Working </strong></summary>
+<br>
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | Builtin SDHC Reader                  | ❌   | Sometimes work, sometimes not. |
+
+</details>
  
 > ## Notes
 
-1. macOS versions used are <b>Retail from Mac App Store</b>, using <b>createinstallmedia</b> for USB Installer
-2. Please read [banhbaoxamlan Readme](https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_OTHERS.md) for Post Install
+1. macOS versions used are <b>Retail from Mac App Store</b>, using <b>createinstallmedia</b> for USB Installer.
+2. Please read[banhbaoxamlan README_HARDWARE.md] for BIOS Configuration, etc(https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_HARDWARE.md) for BIOS Configuration, etc.. and [banhbaoxamlan README_OTHERS.md](https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_OTHERS.md) for Post Install.
  
 > ## Support
 
@@ -108,8 +120,9 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 - [Acidanthera](https://github.com/acidanthera) for all the kexts/utilities that they made.
 - [Rehabman](https://github.com/RehabMan) and [Daliansky](https://github.com/daliansky) for the patches and guides and kexts.
 - [Dortania](https://github.com/dortania) for for the OpenCore Install Guide.
+- [badruzeus](https://github.com/badruzeus) for inspirational Repo and Repo README Layout.
 - [banhbaoxamlan](https://github.com/banhbaoxamlan) for inspirational ThinkPad configurations and Repo README Layout.
-- [migftw](https://github.com/migftw) for inspirational ThinkPad DSDT adn SSDTs.
+- [migftw](https://github.com/migftw) for inspirational ThinkPad DSDT and SSDTs.
 - [zhen-zen](https://github.com/zhen-zen) for **YogaSMC**.
 
 </details>
