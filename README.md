@@ -98,8 +98,8 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
  
 > ## Notes
 
-1. macOS versions used are <b>Retail from Mac App Store</b>, using <b>createinstallmedia</b> for USB Installer.
-2. Please read[banhbaoxamlan README_HARDWARE.md] for BIOS Configuration, etc(https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_HARDWARE.md) for BIOS Configuration, etc.. and [banhbaoxamlan README_OTHERS.md](https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_OTHERS.md) for Post Install.
+1. macOS versions used are <b>Retail from Mac App Store</b>, using <b>createinstallmedia</b> for USB Installer
+2. Please read[banhbaoxamlan README_HARDWARE.md](https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_HARDWARE.md) for BIOS configuration, etc.. and [banhbaoxamlan README_OTHERS.md](https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_OTHERS.md) for Post Install
  
 > ## Support
 
