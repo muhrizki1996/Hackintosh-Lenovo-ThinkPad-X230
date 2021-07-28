@@ -14,13 +14,11 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
  
 <img src="/img/Screenshot.png?raw=true" alt="macOS Screenshot" align="center">
  
-### How to Get
+> ## How to Get
 - Clone whole repo: $ `git clone https://github.com/muhrizki1996/Hackintosh-Lenovo-ThinkPad-X230`
 - Download [Specific Folder](https://minhaskamal.github.io/DownGit/#/home) only.
  
---------------------------------------------------------------------------------------------
- 
-### Notebook Specs
+> ## Notebook Specs
 <img src="/img/Lenovo-ThinkPad-X230.png?raw=true" alt="Lenovo ThinkPad X230" align="right" width="433" height="325">
 
 - [x] <b>Model</b>: Lenovo ThinkPad X230
@@ -36,14 +34,10 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 - [x] <b>Others</b>: 1 USB 2.0 ports, 2 USB 3.0 ports Synaptics PS/2 TouchPad + Track Point, VGA port, Mini Display port, WebCam, 12.5" 16:9 HD (1366x768) TN Panel, Express Card Slot, 3.5mm Combo Headphone Jack, (SD/ MS/ MS Pro/ MMC) Card Reader, 6/9-Cell @5.6Ah/8.4Ah Lithium-ion Battery
 - [x] <b>BIOS</b>: 2.51
  
---------------------------------------------------------------------------------------------
- 
-### EFI Contains
+> ## EFI Contains
 - [x] <b>OpenCore binary, config.plist</b>, drivers for uefi, themes, etc..
 - [x] <b>Patched ACPI Tables (DSDT-SSDT)</b> for Audio, Sleep, etc..
 - [x] <b>3rd party kexts</b> for working devices under macOS High Sierra (10.13), macOS Mojave (10.14), and macOS Catalina (10.15)
-
---------------------------------------------------------------------------------------------
  
 <details>
 <summary><strong> What's Worked </strong></summary>
