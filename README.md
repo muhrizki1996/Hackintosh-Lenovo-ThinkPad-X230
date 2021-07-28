@@ -86,14 +86,27 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
+| VGA Ports                            | ❌   | Real macs doesn't have. |
 | Builtin SDHC Reader                  | ❌   | Sometimes work, sometimes not. |
+
+</details>
+ 
+<details>
+<summary><strong> Not Tested </strong></summary>
+<br>
+
+| Feature                              | Status | Dependency          |
+| :----------------------------------- | ------ | ------------------- |
+| Express Card Slot                    | ❌   | I don't have one of Express Card. |
+| miniDP Port                          | ❌   | I don't have Converter or miniDP Monitor. |
+| ThinkPad Docking                     | ❌   | I don't have ThinkPad Dock |
 
 </details>
  
 > ## Notes
 
 1. macOS versions used are <b>Retail from Mac App Store</b>, using <b>createinstallmedia</b> for USB Installer
-2. Please read[banhbaoxamlan README_HARDWARE.md](https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_HARDWARE.md) for BIOS configuration, etc.. and [banhbaoxamlan README_OTHERS.md](https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_OTHERS.md) for Post Install
+2. Please read [banhbaoxamlan README_HARDWARE.md](https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_HARDWARE.md) for BIOS configuration, etc.. and [banhbaoxamlan README_OTHERS.md](https://github.com/banhbaoxamlan/X230-Hackintosh/blob/master/Other/README_OTHERS.md) for Post Install
  
 > ## Support
 
