@@ -47,7 +47,7 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 | :----------------------------------- | ------ | ------------------- |
 | QE/CI Enabled Graphics               | ✅   | OpenCore Inject + WhateverGreen.kext |
 | Brightness Adjustments               | ✅   | PNLF DSDT Patch + WhateverGreen.kext + BrightnessKeys.kext |
-| Realtek ALC269 Audio out             | ✅   | HDEF DSDT Patch + Lilu.kext + AppleALC.kext |
+| Realtek ALC269 Audio out             | ✅   | HDEF DSDT Patch + AppleALC.kext with Layout ID = 55 |
 | Intel Centrino Advanced-N 6205 Dual-Band       | ✅   | Airportitlwm.kext + Force IO80211Family.kext on OpenCore |
 | Intel 82579LM Gigabit Network Connection | ✅   | IntelMausi.kext |
 | Broadcom BCM20702A0 Bluetooth        | ✅   | BlueTooth.kext |
@@ -55,7 +55,7 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 | Multimedia Keys                      | ✅   | BrightnessKeys.kext + [YogaSMC](https://github.com/zhen-zen/YogaSMC) |
 | Battery Indicator                    | ✅   | ECEnabler.kext |
 | WebCam                               | ✅   | Native + UVC2FaceTimeHD.kext for spoofing UVC WebCams as FaceTime HD |
-| USB2.0 Port + USB 3.0                | ✅   | USBPorts.kext |
+| USB2.0 Port + USB 3.0 Port           | ✅   | USBPorts.kext |
 | Sleep and Wake                       | ✅   | DSDT + SSDT Patch |
 | Mac App Store Access                 | ✅   | Native |
 | iMessage and FaceTime                | ✅   | if you are using MLB and ROM from original Macs |
@@ -88,6 +88,7 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 | :----------------------------------- | ------ | ------------------- |
 | VGA Ports                            | ❌   | Real macs doesn't have. |
 | Builtin SDHC Reader                  | ❌   | Sometimes work, sometimes not. |
+| ThinkVantage Button                  | ❌   | Maybe something to do with [YogaSMC](https://github.com/zhen-zen/YogaSMC). |
 
 </details>
  
