@@ -196,140 +196,41 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,0,0</string>
-				<key>device_type</key>
-				<string>Host Bridge</string>
-				<key>model</key>
-				<string>3rd Gen Core processor DRAM Controller</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,20,0</string>
 				<key>device_type</key>
-				<string>USB Controller</string>
+				<string>USB eXtensible Host Controller</string>
 				<key>model</key>
 				<string>7 Series/C210 Series Chipset Family USB xHCI Host Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,22,0</string>
-				<key>device_type</key>
-				<string>Communication Controller</string>
-				<key>model</key>
-				<string>7 Series/C216 Chipset Family MEI Controller 1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x19,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,25,0</string>
-				<key>device_type</key>
-				<string>Ethernet Controller</string>
-				<key>model</key>
-				<string>82579LM Gigabit Network Connection (Lewisville)</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1A,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,26,0</string>
 				<key>device_type</key>
-				<string>USB Controller</string>
+				<string>USB eXtensible Host Controller</string>
 				<key>model</key>
 				<string>7 Series/C216 Chipset Family USB Enhanced Host Controller 2</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,27,0</string>
-				<key>device_type</key>
-				<string>Audio Device</string>
-				<key>model</key>
-				<string>Realtek ALC269 Audio Chipset</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0</string>
-				<key>device_type</key>
-				<string>PCI Bridge</string>
-				<key>model</key>
-				<string>7 Series/C216 Chipset Family PCI Express Root Port 1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,0/0,0</string>
-				<key>device_type</key>
-				<string>System Peripheral</string>
-				<key>model</key>
-				<string>PCIe SDXC/MMC Host Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,1</string>
-				<key>device_type</key>
-				<string>PCI Bridge</string>
-				<key>model</key>
-				<string>7 Series/C210 Series Chipset Family PCI Express Root Port 2</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,1/0,0</string>
-				<key>device_type</key>
-				<string>Network Controller</string>
-				<key>model</key>
-				<string>Wireless Network Adapter Intel Centrino Advanced-N 6205 [Taylor Peak]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x2)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,28,2</string>
-				<key>device_type</key>
-				<string>PCI Bridge</string>
-				<key>model</key>
-				<string>7 Series/C210 Series Chipset Family PCI Express Root Port 3</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,29,0</string>
 				<key>device_type</key>
-				<string>USB Controller</string>
+				<string>USB eXtensible Host Controller</string>
 				<key>model</key>
 				<string>7 Series/C216 Chipset Family USB Enhanced Host Controller 1</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,0</string>
-				<key>device_type</key>
-				<string>ISA Bridge</string>
-				<key>model</key>
-				<string>QM77 Express Chipset LPC Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,2</string>
 				<key>device_type</key>
-				<string>SATA Controller</string>
+				<string>AHCI Controller</string>
 				<key>model</key>
 				<string>7 Series Chipset Family 6-port SATA Controller [AHCI mode]</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,31,3</string>
-				<key>device_type</key>
-				<string>SMBus</string>
-				<key>model</key>
-				<string>7 Series/C216 Chipset Family SMBus Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -745,7 +646,7 @@
 				<key>Comment</key>
 				<string>Intel Wi-Fi Driver</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
