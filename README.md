@@ -12,6 +12,7 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 - macOS High Sierra 10.13.x
 - macOS Mojave 10.14.x
 - macOS Catalina 10.15.x
+- macOS Big Sur 11.x
  
 <img src="/img/Screenshot.png?raw=true" alt="macOS Screenshot" align="center">
  
