@@ -1,10 +1,11 @@
 # Hackintosh-Lenovo-ThinkPad-X230
 
 [![ThinkPad](https://img.shields.io/badge/ThinkPad-X230-blue.svg)](https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_X230.pdf)
-[![MacOS High Siera](https://img.shields.io/badge/HighSiera-10.15-red.svg)](https://www.apple.com/)
+[![MacOS High Sierra](https://img.shields.io/badge/High_Sierra-10.15-red.svg)](https://www.apple.com/)
 [![MacOS Mojave](https://img.shields.io/badge/Mojave-10.14-red.svg)](https://www.apple.com/)
 [![MacOS Catalina](https://img.shields.io/badge/Catalina-10.15-red.svg)](https://www.apple.com/)
 [![MacOS BigSur](https://img.shields.io/badge/Big_Sur-11.5-red.svg)](https://www.apple.com/)
+[![MacOS Monterey](https://img.shields.io/badge/Monterey-12.1-red.svg)](https://www.apple.com/)
 [![Release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/muhrizki1996/Hackintosh-Lenovo-ThinkPad-X230/releases/latest)
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.1-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest)
 
@@ -52,17 +53,18 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 | Realtek ALC269 Audio out             | ✅   | HDEF DSDT Patch + AppleALC.kext with Layout ID = 55 |
 | Intel Centrino Advanced-N 6205 Dual-Band       | ✅   | Airportitlwm.kext + Force IO80211Family.kext on OpenCore |
 | Intel 82579LM Gigabit Network Connection | ✅   | IntelMausi.kext |
-| Broadcom BCM20702A0 Bluetooth        | ✅   | BlueTooth.kext |
+| Broadcom BCM20702A0 Bluetooth        | ✅   | BlueTooth.kext (not working on macOS Monterey) |
 | Synaptics TouchPad + Track Point     | ✅   | VodooPS2Controller.kext |
 | Multimedia Keys                      | ✅   | BrightnessKeys.kext + [YogaSMC](https://github.com/zhen-zen/YogaSMC) |
 | Battery Indicator                    | ✅   | ECEnabler.kext |
-| WebCam                               | ✅   | Native + UVC2FaceTimeHD.kext for spoofing UVC WebCams as FaceTime HD |
+| WebCam                               | ✅   | Native + UVC2FaceTimeHD.kext for spoofing UVC WebCams as FaceTime HD (not working on macOS Big Sur and newer) |
 | USB2.0 Port + USB 3.0 Port           | ✅   | USBPorts.kext |
 | Sleep and Wake                       | ✅   | DSDT + SSDT Patch |
 | Mac App Store Access                 | ✅   | Native |
 | iMessage and FaceTime                | ✅   | if you are using MLB and ROM from original Macs |
 | Hand Off                             | ✅   | Native |
-
+| miniDP Port                          | ✅   | Tested using miniDP to HDMI Adapter |
+ 
 </details>
 
 <details>
@@ -101,7 +103,6 @@ This is my complete EFI folder to be used for hackintosh on Lenovo ThinkPad X230
 | Feature                              | Status | Dependency          |
 | :----------------------------------- | ------ | ------------------- |
 | Express Card Slot                    | ❌   | I don't have one of Express Card. |
-| miniDP Port                          | ❌   | I don't have Converter or miniDP Monitor. |
 | ThinkPad Docking                     | ❌   | I don't have ThinkPad Dock |
 
 </details>
